@@ -35,10 +35,10 @@ import LooseCodable
 struct User: Codable {
     let name: String
 
-    # Wrap the type of property that may receive unintended data in `LooseCodable`.
+    // Wrap the type of property that may receive unintended data in `LooseCodable`.
     private let _age: LooseCodable<Int>
 
-    # public type is not changed.
+    // public type is not changed.
     var age: Int {
         return self._age.value
     }
