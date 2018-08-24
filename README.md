@@ -89,4 +89,4 @@ You can also map to `User` with problematic JSON.
 
 ## License
 
-Alamofire is released under the BSD 3-Clause license.
+LooseCodable is released under the BSD 3-Clause license.
