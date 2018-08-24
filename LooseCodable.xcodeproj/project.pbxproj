@@ -32,6 +32,7 @@
 		9F9FE156212FE06500A07409 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		9F9FE158212FE1A100A07409 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9F9FE15B212FEBE100A07409 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9F9FE180212FF15200A07409 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		"LooseCodable::LooseCodable::Product" /* LooseCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LooseCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"LooseCodable::LooseCodableTests::Product" /* LooseCodableTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = LooseCodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* LooseCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooseCodableTests.swift; sourceTree = "<group>"; };
@@ -94,17 +95,17 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
 				OBJ_14 /* Products */,
 				9F9FE15B212FEBE100A07409 /* .gitignore */,
+				9F9FE180212FF15200A07409 /* LICENSE */,
 				OBJ_6 /* Package.swift */,
 				9F9FE158212FE1A100A07409 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -177,7 +178,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
