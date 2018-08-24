@@ -2,6 +2,32 @@
 
 LooseCodable is an extended type of Codable that performs loose type conversion.
 
+## Install
+
+### Carthage
+
+```
+github "k-motoyan/LooseCodable"
+```
+
+### Swift Package Manager
+
+```swift
+import PackageDescription
+
+let package = Package(
+        .
+        .
+        .
+    dependencies: [
+        .package(url: "https://github.com/k-motoyan/LooseCodable", from: "1.0.0"),
+    ],
+        .
+        .
+        .
+)
+```
+
 ## Example
 
 There is a `User` type that conforms to the as following `Codable` protocol.
